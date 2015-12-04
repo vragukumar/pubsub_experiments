@@ -3,7 +3,7 @@ package main
 import "os"
 import "fmt"
 import "time"
-import "github.com/go-nanomsg"
+import "github.com/op/go-nanomsg"
 
 func main() {
     var t [10000]time.Time
